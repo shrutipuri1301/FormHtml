@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>School   TimeTable</title>
+<style>
+form,h1{
+    margin-left:10%;
+    margin-right:10%
+}
+input:focus{
+   color:blue;
+}
+#rr:hover{
+    background-color:orange;
+}
+</style>
+</head>
+<body>
+<h1>My Bio Data</h1>
+<form>
+<fieldset>
+
+<legend>Personal Information:</legend>
+<label for="fname">FirstName:</label>
+<input type="text" id="fname" placeholder="FirstName">
+LastName:
+<input type="text" id="last" placeholder="LastName"><br><br>
+
+<label for="female">Female:</label>
+<input type="radio"  id="female" value="female" name="gen">
+<label for="male">Male:</label>
+<input type="radio"  id="male" value="male" name="gen" ><br><br>
+<label for="y">Date Of Birth:</label>
+<input type="date" id="y"><br><br>
+<label for ="E">E-mail:</label>
+<input type="email" for="E"><br><br>
+<label for ="P">Phone:</label>
+<input type="phone" for="P"><br><br>
+<label for ="h">Hobbies</label>
+<input type="checkbox" for="h">Dancing
+<input type="checkbox" for="h">Singing<br><br>
+
+</fieldset>
+<br><br>
+<fieldset>
+<legend>Education:</legend><br>
+<label for="school">School Name:</label>
+<input type="text" id="school" placeholder="School Name"><br><br>
+<label for="school2">Class Name:</label>
+<input type="text" id="school2" placeholder="Class Name"><br><br>
+<label for="select">Stream:</label>
+<select>
+<option>10TH</option>
+<option>12th</option>
+<option>6th</option>
+</select><br><br>
+<input type="file">
+
+
+</fieldset>
+<br><br>
+<input type="submit" placeholder="submit" id="rr">
+</form>
+</body>
+</html>
